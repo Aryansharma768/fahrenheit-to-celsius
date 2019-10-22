@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+        <link rel="stylesheet" type="text/css" href="style.css">
+<head>
+
+<title>Fahrenheit to celsius convertor</title>
+</head>
+<body>
+        <div class="main">
+       
+    <h1>Fahrenheit to celsius convertor</h1>
+    <img class="phy" src="download.jpg" alt="celsius formula">
+    <p>
+
+        <p>Input</p>
+        <label>Fahrenheit</label>
+        <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
+        oninput="temperatureConverter(this.value)"
+        onchange="temperatureConverter(this.value)">
+      </p>
+
+      <p class="str">Output</p>
+      <p>Celsius: <span id="outputCelsius"></span></p>
+</body>
+</div>
+<script src="main.js"></script>
+</html>
